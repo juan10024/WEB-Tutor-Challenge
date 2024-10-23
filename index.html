@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop It! - Juan Valderrama</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">PUPYRKA.RU</div>
+        <nav class="hamburger-menu">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </nav>
+        <nav class="header__nav">
+            <a href="#about" class="header__link">About</a>
+            <a href="#discounts" class="header__link">Discounts</a>
+            <a href="#contacts" class="header__link">Contacts</a>
+            <button id="themeToggle" class="theme-toggle">
+                <span class="theme-toggle__icon">🌞</span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">POP IT!</h1>
+            <p class="hero__subtitle">¡El mejor juguete antiestrés es el plástico de burbujas sin fin!</p>
+            <button class="button">COMPRAR</button>
+        </div>
+        <div class="hero__image">
+            <img src="assets/background.png" alt="Pop It игрушка">
+        </div>
+    </section>
+
+    <section class="info">
+        <h2 class="info__title">¿Qué es POP IT?</h2>
+        <p class="info__text">Pop it se traduce literalmente como "pop it". Este es un juego para niños, cuyo proceso se puede comparar con el estallido del plástico de burbujas. Pero a diferencia de las películas, los pop-its se pueden presionar “infinitamente” con sensaciones y sonidos característicos: 
+                              simplemente se exprimen docenas de burbujas de silicona en la dirección opuesta.</p>
+    </section>
+
+    <section class="products">
+        <h2 class="products__title">¡Elige tu Pop-It!</h2>
+        <div class="products__grid">
+            <div class="product-card">
+                <img src="assets/square.png" alt="Квадратный поп-ит" class="product-card__image">
+                <h3 class="product-card__title">Cuadrado Multicolor</h3>
+                <button class="button">COMPRAR</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/amongus.png" alt="Among Us поп-ит" class="product-card__image">
+                <h3 class="product-card__title">Among Us</h3>
+                <button class="button">COMPRAR</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/round.png" alt="Круглый поп-ит" class="product-card__image">
+                <h3 class="product-card__title">Ronda Multicolor</h3>
+                <button class="button">COMPRAR</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="rules">
+        <div class="rules__background"></div>
+        <div class="rules__content">
+            <h2 class="rules__title">Las Reglas!</h2>
+            <p>Los jugadores se turnan y comienzan sobre las burbujas en cualquier zona del campo, terminando la fila que empezaron. 
+               Puedes empezar con un máximo de 3 granos a la vez. Se deben realizar todos los movimientos; 
+               ¡no puedes presionar varias burbujas a la vez si no están al ras! La tarea es asegurarse de que el oponente se vaya el último. 
+               ¡El último que llegue pierde!
+            </p>
+        </div>
+        <div class="rules__image">
+            <img src="assets/photo.jpg" alt="Photo POP it">
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer__container">
+        <div class="footer__section">
+
+            <div class="footer__logo">
+                PUPYRKA.RU
+            </div>
+            <p class="footer__description">
+                Los mejores juguetes antiestrés Pop It de Rusia. 
+                ¡Calidad, confiabilidad y diversión en cada uno!
+            </p>
+            <div class="footer__social">
+                <a href="#" class="social-link">
+                    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link">
+                    <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Navegación</h3>
+            <div class="footer__links">
+                <a href="#about" class="footer__link">Inicio</a>
+                <a href="#discounts" class="footer__link">Discounts</a>
+                <a href="#contacts" class="footer__link">Contacts</a>
+                <a href="#delivery" class="footer__link">Delivery</a>
+            </div>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Para Compradores</h3>
+            <div class="footer__links">
+                <a href="#payment" class="footer__link">Payments</a>
+                <a href="#shipping" class="footer__link">Shipping</a>
+                <a href="#wholesale" class="footer__link">Sale</a>
+                <a href="#return" class="footer__link">Return</a>
+            </div>
+        </div>
+
+        <div class="footer__section">
+            <h3 class="footer__title">Contactanos</h3>
+            <div class="footer__contact-info">
+                <p>📞 8-800-555-35-35</p>
+                <p>📧 info@ne-pupirka.ru</p>
+                <p>📍 г. Москва, Estamos en Rusia, 42</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 Juan Valderrama - Reto Kodland Tutor Web</p>
+    </div>
+</footer>
+
+    <!-- Enlace al archivo JavaScript  -->
+    <script src="main.js"></script>
+</body>
+</html>
